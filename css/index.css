@@ -1,0 +1,11 @@
+@import "./common/style.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./index/blog-title.css";
+@import "./index/game-card.css";
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

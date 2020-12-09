@@ -1,0 +1,46 @@
+@import "../style.css";
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#navbar {
+    display:grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "nav search";
+    background-color: var(--color-primary);
+    align-items: center;
+    padding-left: 1em;
+}
+
+.nav-btns {
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-btns > a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-size: 1.8em;
+    text-shadow: black 1px 1px;
+    padding: 0.2em 1em;
+}
+
+.nav-btns > a:hover {
+    color: var(--color-secondary-variant);
+    text-shadow: none;
+}
+
+.search-form {
+    grid-area: search;
+    justify-self: right;
+    padding-right: 0.5em;
+}
+

@@ -1,0 +1,60 @@
+@import "./common/style.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./blog-post/game-intro.css";
+@import "./blog-post/author-info.css";
+@import "./blog-post/sharing.css";
+
+h1 {
+    color: var(--color-title);
+    text-align: center;
+}
+
+h2 {
+    color: var(--color-secondary);
+    text-align: left;
+}
+
+h3 {
+    color: var(--color-secondary-variant);
+    text-align: left;
+}
+
+hr {
+    background-color:var(--color-secondary-variant);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article, section {
+    text-align: justify;
+    margin: 5px;
+    padding: 8px 20px 12px 20px;
+    background-color: var(--color-card-background);
+}
+
+section {
+    background-color: var(--color-primary-light);
+}
+
+#screenshot > img {
+    width:100%;
+    height:auto;
+}
+
+figcaption {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.game-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#links {
+    text-align: left;
+}

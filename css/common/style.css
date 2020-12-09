@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Charcoal */
+    --color-primary: #264653;
+    /* Blue Ocean */
+    --color-primary-light: #4d8ea8;
+    /* Burnt Sienna */
+    --color-secondary: #e76f51;
+    /* Sandy Brown */
+    --color-secondary-variant: #f4a261;
+    /* Orange Yellow Crayola */
+    --color-tertiary: #e9c46a;
+
+    /* Platinum */
+    --color-card-background: #ebebea;
+
+    /* Sinopia */
+    --color-title: #c53d1b;
+}
+
+body {
+    background-color: #fcf8ed;
+}
+
+a {
+    color: var(--color-secondary);
+}

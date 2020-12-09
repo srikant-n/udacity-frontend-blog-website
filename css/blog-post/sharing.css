@@ -1,0 +1,13 @@
+#sharing {
+    display:flex;
+    flex-direction: column;
+}
+
+#share-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.share-btn > img {
+    max-width: 80%;
+}
