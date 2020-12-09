@@ -22,7 +22,12 @@
 }
 
 .page-link {
-    color:var(--color-secondary);
+    text-decoration: none;
+    color: black;
+}
+
+.page-link:hover {
+    opacity: 70%;
 }
 
 h2 {

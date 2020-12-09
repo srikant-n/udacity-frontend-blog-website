@@ -21,7 +21,3 @@
 body {
     background-color: #fcf8ed;
 }
-
-a {
-    color: var(--color-secondary);
-}

@@ -10,7 +10,7 @@
 
 #author-data {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 35% 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "img aname"
@@ -19,11 +19,19 @@
     "img aparent"
     "img line-2"
     "abio abio";
+    /* grid-template-areas: 
+    "img abio"
+    "aname abio"
+    "atitle abio"
+    "aparent abio"; */
     text-align: justify;
+    gap: 0;
+    font-size: 0.7em;
 }
 
 #author-avatar {
     grid-area: img;
+    max-width: 200px;
     align-self: center;
     justify-self: center;
 }

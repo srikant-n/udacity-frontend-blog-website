@@ -24,6 +24,10 @@ hr {
     background-color:var(--color-secondary-variant);
 }
 
+a {
+    color: var(--color-secondary);
+}
+
 main {
     display: flex;
     flex-direction: column;
