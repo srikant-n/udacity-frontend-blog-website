@@ -1,48 +1,13 @@
 .game-intro {
-    display:grid;
-    grid-template-columns: 1fr 0.8fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "hd hd"
-    "one img"
-    "two two"
-    "three three"
-    "four four"
-    "five five";
-}
-
-.game-intro > h2 {
-    grid-area: hd;
+    display: flex;
+    flex-direction: column;
 }
 
 #cover-art {
-    grid-area: img;
-    margin:20px 0 0 10px;
-    align-self: center;
+    float: right;
 }
 
 #cover-art > img {
     object-fit: contain;
-    width: 100%;
     height: auto;
-}
-
-#one {
-    grid-area: one;
-}
-
-#two {
-    grid-area: two;
-}
-
-#three {
-    grid-area: three;
-}
-
-#four {
-    grid-area: four;
-}
-
-#five {
-    grid-area: five;
 }
