@@ -8,4 +8,17 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    margin: 10px;
+}
+
+h1 {
+    text-overflow: clip;
+}
+
+@media(min-width: 901px) {
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
 }

@@ -1,6 +1,7 @@
 @import "./common/style.css";
 @import "./common/header.css";
 @import "./common/footer.css";
+@import "./index/blog-title.css";
 @import "./blog-post/game-intro.css";
 @import "./blog-post/author-info.css";
 @import "./blog-post/sharing.css";
