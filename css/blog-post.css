@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-    color: var(--color-secondary-variant);
+    color: var(--color-secondary);
     text-align: left;
 }
 
@@ -36,18 +36,24 @@ main {
 
 article, section {
     text-align: justify;
-    margin: 5px;
-    padding: 8px 20px 12px 20px;
+    margin: 3px;
+    padding: 8px;
     background-color: var(--color-card-background);
 }
 
 section {
-    background-color: var(--color-primary-light);
+    background-color: var(--color-primary-variant);
+}
+
+#screenshot {
+    margin: auto;
+    width: 100%;
 }
 
 #screenshot > img {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
+    align-self: center;
 }
 
 figcaption {
@@ -62,4 +68,42 @@ figcaption {
 
 #links {
     text-align: left;
+}
+
+
+@media (min-width: 600px) {
+    #author-and-share{
+        display: grid;
+        grid-template-areas: "bio share";
+    }
+
+    #author-info {
+        grid-area: bio;
+        width: 400px;
+        justify-self: left;
+    }
+
+    #sharing {
+        grid-area: share;
+        flex-direction: column;
+        height: 110px;
+        justify-self: right;
+    }
+}
+
+@media (min-width: 750px) {
+    #sharing {
+        flex-direction: row;
+        height: 30px;
+    }
+
+    #screenshot > img {
+        display: block;
+        width: min(100%, 1000px);
+        margin: auto;
+    }
+
+    article, section {
+        padding: 10px max(15px, 2vw);
+    }
 }
