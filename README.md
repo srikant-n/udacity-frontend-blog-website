@@ -1,7 +1,7 @@
 # Frontend Blog Website
 Sample Blog Website using HTML and CSS, including Flexbox and Grid. 
 Project 1 of the Udacity Frontend Nanodegree (December 2020).
-[https://srikant-n.github.io/udacity-frontend-blog-website/index.html](Click here to view the website)
+[Website hosted on GitHub Pages](https://srikant-n.github.io/udacity-frontend-blog-website/index.html)
 
 ## What's in the website?
 It is a responsive website containining a main page and one blog entry for info on some of the recent games as of December 2020.
