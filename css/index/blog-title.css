@@ -1,9 +1,9 @@
 #blog-title {
     background-color: var(--color-primary);
-    color: var(--color-title);
+    color: #f0d661;
     border-radius: 25px;
     padding: 10px 20px;
-    box-shadow: var(--color-primary-light) 3px 3px;
+    box-shadow: var(--color-primary-variant) 3px 3px;
 }
 
 @media (max-width: 700px) {

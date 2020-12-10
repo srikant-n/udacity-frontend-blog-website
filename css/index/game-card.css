@@ -2,7 +2,6 @@
     display:flex;
     flex-direction: column;
     text-align: justify;
-    
     padding: 8px 10px 12px 8px;
     border: solid var(--color-primary);
     background-color: var(--color-card-background);
@@ -29,7 +28,7 @@
 }
 
 h2 {
-    color: var(--color-title);
+    color: var(--color-secondary);
     text-align: center;
 }
 

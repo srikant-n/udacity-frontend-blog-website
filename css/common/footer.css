@@ -1,6 +1,6 @@
 footer {
     background-color: var(--color-primary);
-    color: var(--color-tertiary);
+    color: var(--color-secondary-variant);
     display:flex;
     flex-direction: column;
     padding: 10px 10px 0 10px;

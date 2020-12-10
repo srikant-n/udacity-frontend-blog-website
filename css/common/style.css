@@ -2,20 +2,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* Charcoal */
     --color-primary: #264653;
-    /* Ming */
-    --color-primary-variant: #38728a;
+    /* Alice Blue */
+    --color-primary-variant: #d5e5ec;
+    /* Flame */
+    --color-secondary: #e24d28;
     /* Burnt Sienna */
-    --color-secondary: #e76f51;
-    /* Sandy Brown */
-    --color-secondary-variant: #f4a261;
-    /* Orange Yellow Crayola */
-    --color-tertiary: #e9c46a;
+    --color-secondary-variant: #e76f51;
+    /* Gold */
+    --color-tertiary: #a07918;
 
     /* Platinum */
     --color-card-background: #ebebea;
 
-    /* Sinopia */
-    --color-title: #c53d1b;
+    /* Naples Yellow */
+    --color-title: #f0d661;
 }
 
 body {
